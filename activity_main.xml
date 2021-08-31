@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/img"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your details"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:letterSpacing=".15"
+        android:background="@color/black"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_error"
+        android:layout_margin="20dp"
+         />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/black"
+        android:hint="Your name"
+        android:textColor="@color/white"
+        android:layout_margin="2dp"
+
+        />
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/black"
+        android:hint="Your Age"
+        android:textColor="@color/white"
+        android:layout_margin="2dp"
+
+
+        />
+
+    <Button
+        android:id="@+id/go"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter"
+        android:layout_margin="1dp"
+        />
+
+</LinearLayout>
